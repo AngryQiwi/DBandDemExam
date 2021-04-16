@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewDBForm">
+   <children>
+      <TableView fx:id="MainTable" layoutX="57.0" layoutY="57.0" prefHeight="200.0" prefWidth="382.0">
+        <columns>
+          <TableColumn id="id_Column" fx:id="id_Column" prefWidth="75.0" text="id" />
+          <TableColumn id="F_Name_Column" fx:id="F_Name_Column" prefWidth="75.0" text="F_Name" />
+            <TableColumn id="L_Name_Column" fx:id="L_Name_Column" prefWidth="75.0" text="L_Name" />
+            <TableColumn id="City_Column" fx:id="City_Column" prefWidth="75.0" text="City" />
+            <TableColumn id="Phone_Column" fx:id="Phone_Column" prefWidth="75.0" text="Phone" />
+        </columns>
+      </TableView>
+      <Button fx:id="AddButton" layoutX="57.0" layoutY="290.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="EditButton" layoutX="222.0" layoutY="290.0" mnemonicParsing="false" onAction="#EditButtonPress" text="Button" />
+      <Button fx:id="DeleteButton" layoutX="387.0" layoutY="290.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
